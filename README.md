@@ -10,6 +10,7 @@ git clone git@github.com:dantrim/alex_loops_the_loop.git
 lsetup "asetup AnalysisBase,21.2.45,here"
 cd ..
 mkdir build; cd build;
+cmake ../source
 make -j
 source x86*/setup.sh
 run_loop -h
